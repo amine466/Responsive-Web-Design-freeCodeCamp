@@ -1,0 +1,53 @@
+body {
+  background: brown;
+  color: white;
+  padding-top: 20px;
+  margin: 0;
+}
+
+form {
+  background: black;
+  min-width: 300px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 30px;;
+}
+
+h1, p {
+  text-align: center;
+  margin: 1em auto;
+}
+
+h1 {
+  margin-bottom: 0;
+  font-size: 1.75em;
+}
+
+p {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin: 0.5em 0;
+}
+
+input, textarea, select {
+  width: 100%;
+  margin: 10px 0 0 0;
+  min-height: 2em;
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px 10px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type='submit'] {
+  background: green;
+  padding: 10px;
+}
