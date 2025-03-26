@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-top: 60px;
+}
+
+header {
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+input {
+  display: block;
+  margin: 15px auto;
+  padding: 5px 10px;
+}
+
+input[type="submit"] {
+  background: orange;
+  font-weight: bold;
+  border: 0;
+}
+
+h1 {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#features {
+  margin: 50px auto;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.icon {
+  font-size: 32px;
+  width: 100%;
+  max-width: 40px;
+  text-align: center;
+  color: orange;
+}
+
+#how_it_works {
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+}
+
+#pricing {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.offer {
+  border: 1px solid black;
+  padding: 10px 50px;
+  text-align: center;
+}
+
+h3 {
+  width: calc(100% + 100px);
+  padding:5px;
+  margin: -10px -50px 10px -50px; 
+  background: lightgrey;
+}
+
+h4 {
+  padding: 5px;
+}
+
+.offer p {
+  padding: 5px;
+}
+
+button {
+  background: orange;
+  padding: 5px;
+  border: 0;
+  margin: 20px 0 10px 0;
+  cursor: pointer;
+}
+
+button:hover {
+  background: orangered;
+}
+
+footer {
+  margin:0 auto;
+  width: 90%;
+  padding: 10px;
+  background: lightgrey;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 500px) {
+  body {
+    padding-top: 150px;
+  }
+
+  header, nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
